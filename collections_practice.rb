@@ -56,7 +56,7 @@ def add_s(array)
     if i == 2 
       s
     else
-      s + s 
+      s + 's' 
     end
   end
 end
