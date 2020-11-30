@@ -54,9 +54,9 @@ end
 def add_s(array)
   array.each_with_index.collect do |s, i|
     if i == 2 
-      a
+      s
     else
-      a + 's' 
+      s + 's' 
     end
   end
 end
