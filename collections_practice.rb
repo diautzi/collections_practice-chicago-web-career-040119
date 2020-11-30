@@ -52,7 +52,7 @@ end
 # end
 
 def add_s(array)
-  array.each_with_inde(a, i).collect do |s|
+  array.each_with_index(a, i).collect do |s|
     if i == 2 
       a
     else
