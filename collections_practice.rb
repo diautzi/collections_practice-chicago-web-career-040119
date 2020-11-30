@@ -50,3 +50,12 @@ end
 #     end
 #   end
 # end
+
+def add_s(array)
+  array.each_with_inde(a, i).collect do |s|
+    if i == 2 
+      a
+    else
+      a + s 
+    end
+end
