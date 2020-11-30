@@ -54,9 +54,9 @@ end
 def add_s(array)
   array.each_with_inde(a, i).collect do |s|
     if i == 2 
-      a
+      s
     else
-      a + s 
+      s + s 
     end
   end
 end
